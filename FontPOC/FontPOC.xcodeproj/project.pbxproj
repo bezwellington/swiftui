@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CF27A32CB609180087C315 /* FontPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF27A22CB609180087C315 /* FontPOCApp.swift */; };
+		13CF27A52CB609180087C315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF27A42CB609180087C315 /* ContentView.swift */; };
+		13CF27A72CB609250087C315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27A62CB609250087C315 /* Assets.xcassets */; };
+		13CF27AA2CB609250087C315 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27A92CB609250087C315 /* Preview Assets.xcassets */; };
+		13CF27CF2CB60CAE0087C315 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27CE2CB60CAE0087C315 /* OpenSans-Bold.ttf */; };
+		13CF27D52CB610010087C315 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27D02CB610010087C315 /* OpenSans-Regular.ttf */; };
+		13CF27D62CB610010087C315 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27D12CB610010087C315 /* OpenSans-Italic.ttf */; };
+		13CF27D72CB610010087C315 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27D22CB610010087C315 /* OpenSans-SemiBold.ttf */; };
+		13CF27D82CB610010087C315 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27D32CB610010087C315 /* OpenSans-ExtraBold.ttf */; };
+		13CF27D92CB610010087C315 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13CF27D42CB610010087C315 /* OpenSans-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13CF279F2CB609180087C315 /* FontPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CF27A22CB609180087C315 /* FontPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPOCApp.swift; sourceTree = "<group>"; };
+		13CF27A42CB609180087C315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13CF27A62CB609250087C315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13CF27A92CB609250087C315 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13CF27CD2CB60C8E0087C315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13CF27CE2CB60CAE0087C315 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		13CF27D02CB610010087C315 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		13CF27D12CB610010087C315 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		13CF27D22CB610010087C315 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		13CF27D32CB610010087C315 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		13CF27D42CB610010087C315 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CF279C2CB609180087C315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CF27962CB609180087C315 = {
+			isa = PBXGroup;
+			children = (
+				13CF27A12CB609180087C315 /* FontPOC */,
+				13CF27A02CB609180087C315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13CF27A02CB609180087C315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CF279F2CB609180087C315 /* FontPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CF27A12CB609180087C315 /* FontPOC */ = {
+			isa = PBXGroup;
+			children = (
+				13CF27D32CB610010087C315 /* OpenSans-ExtraBold.ttf */,
+				13CF27D12CB610010087C315 /* OpenSans-Italic.ttf */,
+				13CF27D42CB610010087C315 /* OpenSans-Light.ttf */,
+				13CF27D02CB610010087C315 /* OpenSans-Regular.ttf */,
+				13CF27D22CB610010087C315 /* OpenSans-SemiBold.ttf */,
+				13CF27CE2CB60CAE0087C315 /* OpenSans-Bold.ttf */,
+				13CF27CD2CB60C8E0087C315 /* Info.plist */,
+				13CF27A22CB609180087C315 /* FontPOCApp.swift */,
+				13CF27A42CB609180087C315 /* ContentView.swift */,
+				13CF27A62CB609250087C315 /* Assets.xcassets */,
+				13CF27A82CB609250087C315 /* Preview Content */,
+			);
+			path = FontPOC;
+			sourceTree = "<group>";
+		};
+		13CF27A82CB609250087C315 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13CF27A92CB609250087C315 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CF279E2CB609180087C315 /* FontPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CF27AD2CB609250087C315 /* Build configuration list for PBXNativeTarget "FontPOC" */;
+			buildPhases = (
+				13CF279B2CB609180087C315 /* Sources */,
+				13CF279C2CB609180087C315 /* Frameworks */,
+				13CF279D2CB609180087C315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontPOC;
+			productName = FontPOC;
+			productReference = 13CF279F2CB609180087C315 /* FontPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CF27972CB609180087C315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					13CF279E2CB609180087C315 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 13CF279A2CB609180087C315 /* Build configuration list for PBXProject "FontPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13CF27962CB609180087C315;
+			productRefGroup = 13CF27A02CB609180087C315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CF279E2CB609180087C315 /* FontPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CF279D2CB609180087C315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CF27AA2CB609250087C315 /* Preview Assets.xcassets in Resources */,
+				13CF27A72CB609250087C315 /* Assets.xcassets in Resources */,
+				13CF27D92CB610010087C315 /* OpenSans-Light.ttf in Resources */,
+				13CF27D82CB610010087C315 /* OpenSans-ExtraBold.ttf in Resources */,
+				13CF27D52CB610010087C315 /* OpenSans-Regular.ttf in Resources */,
+				13CF27D62CB610010087C315 /* OpenSans-Italic.ttf in Resources */,
+				13CF27D72CB610010087C315 /* OpenSans-SemiBold.ttf in Resources */,
+				13CF27CF2CB60CAE0087C315 /* OpenSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CF279B2CB609180087C315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CF27A52CB609180087C315 /* ContentView.swift in Sources */,
+				13CF27A32CB609180087C315 /* FontPOCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13CF27AB2CB609250087C315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13CF27AC2CB609250087C315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CF27AE2CB609250087C315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FontPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = CBJLEDS7Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.FontPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13CF27AF2CB609250087C315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FontPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = CBJLEDS7Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.FontPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CF279A2CB609180087C315 /* Build configuration list for PBXProject "FontPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CF27AB2CB609250087C315 /* Debug */,
+				13CF27AC2CB609250087C315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CF27AD2CB609250087C315 /* Build configuration list for PBXNativeTarget "FontPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CF27AE2CB609250087C315 /* Debug */,
+				13CF27AF2CB609250087C315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CF27972CB609180087C315 /* Project object */;
+}
